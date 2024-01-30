@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function () {
 require([
     "esri/WebMap",
     "esri/views/MapView"
@@ -14,4 +15,5 @@ require([
         container: "viewDiv"
     });
 
+});
 });
